@@ -328,3 +328,101 @@ hr{
     margin-right: auto;
     margin-top: 20px;   
 }
+@media (max-width: 768px) {
+    .header_banner {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+    .header_banner .container h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .header_banner .container p {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    .header_banner .container .btn {
+        position: relative;
+        top: 0;
+        padding: 8px 12px;
+        font-size: 0.8rem;
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+    }
+    .container-imagem-destaque img {
+        width: 200px;
+        height: auto;
+    }
+    .sobre_mim {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+    .container_sobre_mim {
+        flex-direction: column;
+    }
+    .container_texto_sobre_mim {
+        width: 100%;
+        padding: 10px;
+    }
+    .container_imagem_café img {
+        width: 100%;
+        height: auto;
+    }
+    .minha_historia {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+    .container_texto_minha_historia {
+        width: 100%;
+        padding: 10px;
+    }
+    .container_imagem_minha_historia img {
+        width: 100%;
+        height: auto;
+    }
+    .minhas_habilidades {
+        height: auto;
+        padding: 20px;
+    }
+    .container_habilidades {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .habilidade {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+    .habilidade img {
+        width: 100px;
+        height: auto;
+    }
+    .rodape_final_contato {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+    .contato_texto {
+        width: 100%;
+        padding: 10px;
+    }
+    .container_botao_contato .btn {
+        padding: 6px 10px;
+        font-size: 0.7rem;
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+    }
+    img {
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+}
